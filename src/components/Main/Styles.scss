@@ -1,0 +1,125 @@
+.Main-dashboard {
+    width: 95%;
+    margin-left: 15rem;
+    
+    .input {
+        width: 50rem;
+        margin-top: 2rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 2rem;
+        input {
+            
+            width: 40rem;
+            padding: 10px;
+            outline: none;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: 1px solid rgb(161, 156, 156);
+        }
+        button{
+            padding: 11px 20px;
+            background-color: #DC3545;
+            color: #fff;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            outline: none;
+            border: none;
+        
+        }
+        .followers-heading {
+            font-size: 15px;
+            font-weight: 500;
+            color: grey;
+            margin-top: 10px;
+        }
+        .followers {
+            display: flex;
+            margin-top: 10px;
+            text-align: center;
+            gap: 5px;
+            img{
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50px;
+            }
+            span{
+                color: #DC3545;
+                margin-top: 10px;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+    .post-conatiner {
+        width: 50rem;
+        padding: 2rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+       margin-top: 2rem;
+
+       .post-img {
+        width: 3rem;
+        height: 3rem;
+    }
+        .post {
+            display: flex;
+            gap: 10px;
+            height: 5rem;
+            .post-description{
+                margin: 0;
+                padding: 0 !important;
+                .update-btn {
+                    padding: 5px;
+                    border: 1px solid balck;
+                    border-radius: 5px;
+                    background-color: #DC3545;
+                    color: #fff;
+                    margin-top: 5px;
+                    font-size: 10px;
+                }
+            }
+           
+        }
+        .comments {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+            .comment ul {
+                display: flex;
+                justify-content: space-around;
+                gap: 5rem;
+                li{
+                    list-style-type: none;
+                }
+                span{
+                    margin-left: 15rem;
+                }
+            }
+        }
+        .post-section{
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 3rem;
+                height: 3rem;
+            }
+            input{
+                width: 35rem;
+                outline: none;
+                padding: 5px;
+                border: none;
+                
+            }
+            button {
+                background-color: #DC3545;
+                width: 5rem;
+                outline: none;
+                color: white;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+    }
+   
+}
